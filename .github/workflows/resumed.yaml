@@ -23,6 +23,10 @@ jobs:
 
       - name: Install NPM dependencies
         run: npm install jsonresume-theme-kendall-saathoff
+
+      - name: Delete existing HTML file
+        run: |
+          rm -f resume/index.html
           
       - id: render-html
         name: Render JSON Resume HTML
@@ -36,6 +40,6 @@ jobs:
         run: |
           git config user.email "github-actions@github.com"
           git config user.name "github-actions"
-          git add -f resume/index.html
+          git add resume/index.html
           git commit -m "Chore: render JSON Resume"
           git push

@@ -48,3 +48,10 @@ a {
   background-color: var(--bs-white);
   border-top: none;
 }
+
+@font-face {                                                                                                                                                                                                                                  
+  font-family: 'Bitwise';                                                                                                                                                                                                              
+  src: url('/assets/font/Bitwise-m19x.ttf') format('truetype');                                                                                                                                                                                
+  font-weight: normal;                                                                                                                                                                                                                      
+  font-style: normal;                                                                                                                                                                                                                       
+}  

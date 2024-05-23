@@ -37,5 +37,5 @@ jobs:
           git config user.email "github-actions@github.com"
           git config user.name "github-actions"
           git add resume/index.html
-          git commit -m "[actions skip] chore(resume/index.html): render JSON Resume"
+          git commit -m "chore(resume/index.html): render JSON Resume"
           git push

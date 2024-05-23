@@ -19,7 +19,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 strict_front_matter: true
-mathjax: true
+mathjax: false
 exclude:
   - Gemfile
   - Gemfile.lock

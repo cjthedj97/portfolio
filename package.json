@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jsonresume-theme-kendall-saathoff": "^1.0.0",
+    "resumed": "^3.0.1"
+  }
+}

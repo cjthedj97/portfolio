@@ -1,0 +1,41 @@
+name: JSON Resume render
+ 
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '_data/bio.json'
+  pull_request:
+    paths:
+      - '_data/bio.json'
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - id: checkout
+        uses: actions/checkout@v4.1.4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Install NPM dependencies
+        run: npm install jsonresume-theme-kendall-saathoff
+          
+      - id: render-html
+        name: Render JSON Resume HTML
+        uses: chessmango/action-resumed-render@v1.1.1
+        with:
+          theme: jsonresume-theme-kendall-saathoff
+          input_file: _data/bio.json
+          output_file: resume/index.html
+      - id: commit-push
+        name: Commit/push rendered HTML
+        run: |
+          git config user.email "github-actions@github.com"
+          git config user.name "github-actions"
+          git add resume/index.html
+          git commit -m "[actions skip] chore(resume/index.html): render JSON Resume"
+          git push

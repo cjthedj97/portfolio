@@ -1,118 +1,219 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "name": "Christopher Saathoff",
+    "label": "Information Technology Professional",
+    "image": "https://cjthedj97.me/assets/img/profilepic.png",
+    "email": "christopher@saathoff.tech",
+    "phone": "",
+    "url": "https:/portfolio.cjthedj97.me",
+    "summary": "With over seven years in the industry and many more personally, I have accumulated experience as a Windows and Linux System Administrator. My roles have involved managing Linux servers specializing in RHEL and Debian directives at Liquid Web, as well as overseeing Windows servers and providing technical support at the I-KAN Regional Office of Education. My interest in technology traces back to my childhood, driving me to explore the inner workings of systems. This curiosity led me to Linux, which sparked a deep passion for open-source systems and shaped my career goals.",
+    "location": {
+      "countryCode": "US",
+      "city": "Lansing",
+      "region": "Michigan"
+    },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      {
+        "network": "GitHub",
+        "username": "cjthedj97",
+        "url": "https://github.com/cjthedj97"
+      },
+      {
+        "network": "Linkedin",
+        "username": "cjthedj97",
+        "url": "https://www.linkedin.com/in/cjthedj97/"
+      }
     ]
   },
-  "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
-  ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "courses": [
-      ]
-    }
-  ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
+      "name": "Freelance",
+      "position": "Technical Writer",
+      "description": "",
+      "startDate": "2023-12-31",
       "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "highlights": [],
+      "summary": "As a freelance technical writer, I have been working with Namehero.com to create in-depth and informative articles on a wide range of technical topics. With a focus on Linux systems and programming, I have a proven track record of producing engaging content that simplifies complex concepts for readers. My expertise includes demystifying technical processes such as cron jobs, SSH tunneling, file management, and version control using Git. I excel at breaking down intricate technical procedures into clear, step-by-step guides, making them accessible to readers of all levels of expertise. With a keen eye for detail and a passion for sharing knowledge, I aim to empower readers with the skills and confidence to navigate the world of technology effectively.",
+      "url": "https://www.namehero.com/blog/author/cjthedj97/",
+      "location": "Online"
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "name": "Liquid Web",
+      "position": "Linux System Administrator",
+      "description": "",
+      "startDate": "2018-07-31",
+      "endDate": "2023-07-31",
+      "highlights": [],
+      "summary": "I managed Linux servers, specialized in RHEL and Debian, and handled email services configuration and troubleshooting using Exim, Postfix, or Qmail. Additionally, I assisted with MySQL configuration and troubleshooting, oversaw a global server network, and provided comprehensive technical support for server, networking, DNS, and application-related issues. I also specialized in domain registration, configuration, and DNS troubleshooting, optimized Apache and Nginx web servers, and supported both VMware and KVM virtualization systems. Moreover, I addressed PCI compliance and vulnerability issues, and supported various backup solutions like rsync, control panel backups, R1Soft, and Acronis Cyber Cloud.",
+      "url": "https://www.linkedin.com/company/118903",
+      "location": "Lansing, Michigan"
+    },
+    {
+      "name": "I-KAN Regional Office of Education",
+      "position": "IT/Technology Intern",
+      "description": "",
+      "startDate": "2014-11-30",
+      "endDate": "2016-08-31",
+      "highlights": [],
+      "summary": "As part of the IT Administration team, I managed Office 365, Google G Suite, and WordPress systems while overseeing Windows workstation management, including imaging and repairs. Additionally, I administered up to 20 Windows servers, provided technical support, conducted network troubleshooting, and supported hardware maintenance, including copiers, printers, and analog phones. Across three sites, I ensured smooth IT operations and connectivity.",
+      "url": "https://i-kan.org",
+      "location": "Kankakee, Illinois"
     }
   ],
-  "references": [
+  "volunteer": [],
+  "education": [
     {
-      "name": "Available upon request"
+      "institution": "Baker College",
+      "area": "Information Technology and Security",
+      "studyType": "Associate of Science - AS",
+      "startDate": "2016-12-31",
+      "endDate": "2018-12-31",
+      "score": "",
+      "courses": []
     }
-  ]
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "CompTIA A+",
+      "issuer": "CompTIA",
+      "endDate": "2019-05-31",
+      "startDate": "2016-05-31",
+      "url": "https://portfolio.cjthedj97.me/certs/CompTIA_A+_ce.pdf"
+    },
+    {
+      "name": "cPanel & WHM Administrator Certification (CWA)",
+      "issuer": "cPanel",
+      "endDate": "2023-03-31",
+      "startDate": "2021-04-30",
+      "url": "https://portfolio.cjthedj97.me/certs/cPanel_CWA.pdf"
+    },
+    {
+      "name": "cPanel Professional Certification (CPP)",
+      "issuer": "cPanel",
+      "endDate": "2021-09-30",
+      "startDate": "2020-09-30",
+      "url": "https://portfolio.cjthedj97.me/certs/cPanel_CPP.pdf"
+    },
+    {
+      "name": "LPI Linux Essentials",
+      "issuer": "Linux Professional Institute",
+      "startDate": "2017-08-31",
+      "url": "https://portfolio.cjthedj97.me/certs/Linux_Essentials_LPI.pdf"
+    },
+    {
+      "name": "Testout PC Pro",
+      "issuer": "TestOut Corporation",
+      "startDate": "2015-03-31",
+      "url": "https://portfolio.cjthedj97.me/certs/PC_Pro_Testout.pdf"
+    },
+    {
+      "name": "Testout Network Pro",
+      "issuer": "TestOut Corporation",
+      "startDate": "2016-03-31",
+      "url": "https://portfolio.cjthedj97.me/certs/Net_Pro_Testout.pdf"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Server Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux System Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Database Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DNS Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Domain Registration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Technical Support",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Network Troubleshooting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hardware Maintenance",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Email Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Virtualization Support",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Backup & Recovery Systems",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Technical Writing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IT Operations",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+    "interests": [
+    {
+    "name": "Tech Enthusiast",
+    "keywords": [
+      "Cybersecurity",
+      "Coding/Scripting",
+      "Open Source",
+      "Self Hosting",
+      "Static Websites"
+    ]
+  },
+  {
+    "name": "Geek"
+  },
+  {
+    "name": "Audiophile & DJ "
+  },
+  {    
+    "name": "Culinary Enthusiast"
+  }],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "lastModified": "2024-05-15T21:04:02",
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
 }

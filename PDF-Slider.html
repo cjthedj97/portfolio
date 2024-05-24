@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Slider</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <style>
+        .slider-instructions {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .swiper-slide img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .swiper-button-next,
+        .swiper-button-prev {
+            color: rgb(0, 0, 0);
+            background-color: #ffffffc4;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="slider-instructions">Use the arrows or swipe to navigate the slider. Click on an image to view the PDF.</div>
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" onclick="window.open('/certs/pdf/PC_Pro_Testout.pdf')">
+            <img src="/certs/image/PC_Pro_Testout.png" alt="TestOut PC Pro">
+        </div>
+        <div class="swiper-slide" onclick="window.open('/certs/pdf/Net_Pro_Testout.pdf')">
+            <img src="/certs/image/Net_Pro_Testout.png" alt="TestOut Network Pro">
+        </div>
+        <div class="swiper-slide">
+            <img src="/certs/image/HourOfCode.jpg" alt="Hour Of Code">
+        </div>
+        <div class="swiper-slide" onclick="window.open('/certs/pdf/CompTIA_A+_ce.pdf')">
+            <img src="/certs/image/CompTIA_A+_ce.png" alt="CompTIA A+">
+        </div>
+        <div class="swiper-slide" onclick="window.open('/certs/pdf/Linux_Essentials_LPI.pdf')">
+            <img src="/certs/image/Linux_Essentials_LPI.png" alt="LPI Linux Essentials">
+        </div>
+        <div class="swiper-slide" onclick="window.open('/certs/pdf/cPanel_CPP.pdf')">
+            <img src="/certs/image/cPanel_CPP.png" alt="cPanel CPP">
+        </div>
+        <div class="swiper-slide" onclick="                                                                                                                                                     window.open('/certs/pdf/cPanel_CWA.pdf')">
+            <img src="/certs/image/cPanel_CWA.png" alt="cPanel CWA">
+        </div>
+        <div class="swiper-slide" onclick="window.open('/certs/pdf/cPanel-CPSP.pdf')">
+            <img src="/certs/image/cPanel-CPSP.png" alt="cPanel CPSP">
+        </div>          
+        <div class="swiper-slide" onclick="window.open('/certs/pdf/he-ipv6.pdf')">
+            <img src="/certs/image/he-ipv6.png" alt="Hurricane Electric IPv6 Sage">
+        </div>
+        <!-- Add more PDF embeds as needed -->
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+var swiper = new Swiper('.swiper-container', {
+    loop: true,
+    autoplay: {
+        delay: 5000, // Auto-scroll every 5 seconds
+        disableOnInteraction: true, // Allow user interaction to interrupt autoplay
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+        768: {
+            slidesPerView: 1,
+            spaceBetween: 20
+        }
+    }
+});
+</script>
+
+</body>
+</html>

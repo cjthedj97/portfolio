@@ -26,7 +26,7 @@ jobs:
 
       - name: Delete existing HTML file
         run: |
-          rm -f resume/index.html
+          rm -f _includes/resume.html
           
       - id: render-html
         name: Render JSON Resume HTML
@@ -34,12 +34,12 @@ jobs:
         with:
           theme: jsonresume-theme-kendall-saathoff
           input_file: _data/bio.json
-          output_file: resume/index.html
+          output_file: _includes/resume.html
       - id: commit-push
         name: Commit/push rendered HTML
         run: |
           git config user.email "github-actions@github.com"
           git config user.name "github-actions"
-          git add resume/index.html
+          git add _includes/resume.html
           git commit -m "Chore: render JSON Resume"
           git push

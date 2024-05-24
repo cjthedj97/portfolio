@@ -61,10 +61,11 @@ a {
 }  
 .navbar-brand {
     font-family: "Bitwise";
-}
-.navbar-brand,
-.navbar-nav .nav-link {
     color: #fff;
+
+}
+.navbar-nav .nav-link {
+      color: #fff;
 }
 .bg-light {
   --bs-bg-opacity: 1;

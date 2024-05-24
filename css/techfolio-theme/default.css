@@ -7,7 +7,7 @@
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--bs-blue);
-  --tf-pill-bg: var(--bs-gray);
+  --tf-pill-bg: #0ad1d1;
   --tf-icon-fill: var(--bs-gray);
   --tf-icon-hover: var(--bs-gray-500);
   --tf-page-bg-color: var(--bs-white);
@@ -55,14 +55,10 @@ a {
   font-weight: normal;                                                                                                                                                                                                                      
   font-style: normal;                                                                                                                                                                                                                       
 }  
-.navbar {
-    background-color: #2c3e50; 
-}
 }  
 .navbar-brand {
     font-family: "Bitwise";
     color: #fff;
-
 }
 .navbar-nav .nav-link {
       color: #fff;

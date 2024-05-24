@@ -15,6 +15,11 @@
   --tf-projects-bg-color: var(--bs-gray-100);
 }
 
+body {
+   color:#fff;
+   background-color: #1a252f;
+}
+
 /* Format social media icons */
 .tf-social {
   display: inline-block;

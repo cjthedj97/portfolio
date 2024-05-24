@@ -66,3 +66,7 @@ a {
 .navbar-nav .nav-link {
     color: #fff;
 }
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: #2c3e50;
+}

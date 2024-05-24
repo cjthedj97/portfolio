@@ -6,7 +6,7 @@
     "image": "https://cjthedj97.me/assets/img/profilepic.png",
     "email": "christopher@saathoff.tech",
     "phone": "",
-    "url": "https:/portfolio.cjthedj97.me",
+    "url": "https://portfolio.cjthedj97.me",
     "summary": "With over seven years in the industry and many more personally, I have accumulated experience as a Windows and Linux System Administrator. My roles have involved managing Linux servers specializing in RHEL and Debian directives at Liquid Web, as well as overseeing Windows servers and providing technical support at the I-KAN Regional Office of Education. My interest in technology traces back to my childhood, driving me to explore the inner workings of systems. This curiosity led me to Linux, which sparked a deep passion for open-source systems and shaped my career goals.",
     "location": {
       "countryCode": "US",
@@ -212,7 +212,7 @@
   "references": [],
   "projects": [],
   "meta": {
-    "lastModified": "2024-05-15T21:04:02",
+    "lastModified": "2024-05-23T21:18:27",
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   }

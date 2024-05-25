@@ -6,7 +6,7 @@
       <p class="card-text">{{ include.page.content | markdownify | strip_html | truncatewords: 40 }}</p>
       <p>
         {% for label in include.page.labels %}
-        <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
+        <span style="background-color: var(--bg-light-custom)" class="badge rounded-pill">{{ label }}</span>
         {% endfor %}
       </p>
     </div>

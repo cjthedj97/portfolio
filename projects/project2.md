@@ -20,7 +20,7 @@ This is a placeholder project.
 Source: <a href="https://github.com/placeholder-project">placeholder-project</a>
 <div class="text-center p-4">
   <img width="200px" src="../img/placeholder-image.png" class="img-thumbnail" >
-  <img width="200px" src="../img/placeholder-image.png"" class="img-thumbnail" >
+  <img width="200px" src="../img/placeholder-image.png" class="img-thumbnail" >
   <img width="200px" src="../img/placeholder-image.png" class="img-thumbnail" >
 </div>
 

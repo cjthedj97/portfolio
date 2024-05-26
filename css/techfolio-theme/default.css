@@ -77,3 +77,6 @@ a {
 .text-start {
 	color: #fff;
 }
+.navbar-toggler-icon {
+  color: #1abc9c; 
+}

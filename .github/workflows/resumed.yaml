@@ -38,8 +38,6 @@ jobs:
       - id: commit-push
         name: Commit/push rendered HTML
         run: |
-          git config user.email "github-actions@github.com"
-          git config user.name "github-actions"
           git add resume/index.html
           git commit -m "Chore: render JSON Resume"
           git push

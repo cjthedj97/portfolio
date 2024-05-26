@@ -7,7 +7,7 @@
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--bs-blue);
-  --tf-pill-bg: #0ad1d1;
+  --tf-pill-bg: #1abc9c;
   --tf-icon-fill: var(--bs-gray);
   --tf-icon-hover: var(--bs-gray-500);
   --tf-page-bg-color: #1a252f;
@@ -23,7 +23,7 @@ body {
 /* Format social media icons */
 .tf-social {
   display: inline-block;
-  fill: var(--tf-icon-fill);
+  fill: #0ad1d1;
   height: 1.5em;
   vertical-align: -.1em;
   width: 1.5em;

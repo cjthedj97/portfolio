@@ -4,7 +4,7 @@ type: project
 image: img/cotton/cotton-square.png
 title: "Project3"
 date: 2014
-published: true
+published: false
 labels:
   - lable1
   - lable2

@@ -4,7 +4,7 @@ type: project
 image: img/vacay/vacay-square.png
 title: "Placeholder Project"
 date: 2015
-published: true
+published: false
 labels:
   - lable1
   - lable2

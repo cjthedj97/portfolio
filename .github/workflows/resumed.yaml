@@ -40,7 +40,13 @@ jobs:
         run: |
           git config user.email "github-actions@github.com"
           git config user.name "github-actions"
-          git restore package.json 
-          git add resume/index.html
-          git commit -m "Chore: render JSON Resume"
-          git push
+          git restore package.json
+          
+          # Check if there are changes in resume/index.html
+          if ! git diff --quiet resume/index.html; then
+            git add resume/index.html
+            git commit -m "Chore: render JSON Resume"
+            git push
+          else
+            echo "No changes to commit."
+          fi

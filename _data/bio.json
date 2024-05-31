@@ -67,7 +67,7 @@
       "institution": "Baker College",
       "area": "Information Technology and Security",
       "studyType": "Associate of Science - AS",
-      "startDate": "2016-12-31",
+      "startDate": "2016-09-01",
       "endDate": "2018-12-31",
       "score": "",
       "courses": []
@@ -212,7 +212,7 @@
   "references": [],
   "projects": [],
   "meta": {
-    "lastModified": "2024-05-23T21:18:27",
+    "lastModified": "2024-05-31T14:45:34",
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   }

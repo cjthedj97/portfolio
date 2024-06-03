@@ -3,7 +3,7 @@ layout: project
 type: project
 published: true
 image:  img/technical-writer.png
-title: Technical Writing For Namehero
+title: Technical Writing
 date: 2024
 labels:
   - Linux

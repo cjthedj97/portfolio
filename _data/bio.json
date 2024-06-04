@@ -3,15 +3,12 @@
   "basics": {
     "name": "Christopher Saathoff",
     "label": "Information Technology Professional",
-    "image": "https://cjthedj97.me/assets/img/profilepic.png",
     "email": "christopher@saathoff.tech",
     "phone": "",
     "url": "https://portfolio.cjthedj97.me",
     "summary": "With over seven years in the industry and many more personally, I have accumulated experience as a Windows and Linux System Administrator. My roles have involved managing Linux servers specializing in RHEL and Debian directives at Liquid Web, as well as overseeing Windows servers and providing technical support at the I-KAN Regional Office of Education. My interest in technology traces back to my childhood, driving me to explore the inner workings of systems. This curiosity led me to Linux, which sparked a deep passion for open-source systems and shaped my career goals.",
     "location": {
-      "countryCode": "US",
-      "city": "Lansing",
-      "region": "Michigan"
+      "countryCode": "US"
     },
     "profiles": [
       {
@@ -46,7 +43,7 @@
       "endDate": "2023-07-31",
       "highlights": [],
       "summary": "I managed Linux servers, specialized in RHEL and Debian, and handled email services configuration and troubleshooting using Exim, Postfix, or Qmail. Additionally, I assisted with MySQL configuration and troubleshooting, oversaw a global server network, and provided comprehensive technical support for server, networking, DNS, and application-related issues. I also specialized in domain registration, configuration, and DNS troubleshooting, optimized Apache and Nginx web servers, and supported both VMware and KVM virtualization systems. Moreover, I addressed PCI compliance and vulnerability issues, and supported various backup solutions like rsync, control panel backups, R1Soft, and Acronis Cyber Cloud.",
-      "url": "https://www.linkedin.com/company/118903",
+      "url": "https://www.liquidweb.com/about-us/",
       "location": "Lansing, Michigan"
     },
     {
@@ -79,40 +76,34 @@
       "name": "CompTIA A+",
       "issuer": "CompTIA",
       "endDate": "2019-05-31",
-      "startDate": "2016-05-31",
-      "url": "https://portfolio.cjthedj97.me/certs/CompTIA_A+_ce.pdf"
+      "startDate": "2016-05-31"
     },
     {
       "name": "cPanel & WHM Administrator Certification (CWA)",
       "issuer": "cPanel",
       "endDate": "2023-03-31",
-      "startDate": "2021-04-30",
-      "url": "https://portfolio.cjthedj97.me/certs/cPanel_CWA.pdf"
+      "startDate": "2021-04-30"
     },
     {
       "name": "cPanel Professional Certification (CPP)",
       "issuer": "cPanel",
       "endDate": "2021-09-30",
-      "startDate": "2020-09-30",
-      "url": "https://portfolio.cjthedj97.me/certs/cPanel_CPP.pdf"
+      "startDate": "2020-09-30"
     },
     {
       "name": "LPI Linux Essentials",
       "issuer": "Linux Professional Institute",
-      "startDate": "2017-08-31",
-      "url": "https://portfolio.cjthedj97.me/certs/Linux_Essentials_LPI.pdf"
+      "startDate": "2017-08-31"
     },
     {
       "name": "Testout PC Pro",
       "issuer": "TestOut Corporation",
-      "startDate": "2015-03-31",
-      "url": "https://portfolio.cjthedj97.me/certs/PC_Pro_Testout.pdf"
+      "startDate": "2015-03-31"
     },
     {
       "name": "Testout Network Pro",
       "issuer": "TestOut Corporation",
-      "startDate": "2016-03-31",
-      "url": "https://portfolio.cjthedj97.me/certs/Net_Pro_Testout.pdf"
+      "startDate": "2016-03-31"
     }
   ],
   "publications": [],
@@ -212,7 +203,7 @@
   "references": [],
   "projects": [],
   "meta": {
-    "lastModified": "2024-05-31T14:45:34",
+    "lastModified": "2024-06-03T20:21:00",
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   }

@@ -42,7 +42,7 @@
       "startDate": "2018-07-31",
       "endDate": "2023-07-31",
       "highlights": [],
-      "summary": "I managed Linux servers, specialized in RHEL and Debian, and handled email services configuration and troubleshooting using Exim, Postfix, or Qmail. Additionally, I assisted with MySQL configuration and troubleshooting, oversaw a global server network, and provided comprehensive technical support for server, networking, DNS, and application-related issues. I also specialized in domain registration, configuration, and DNS troubleshooting, optimized Apache and Nginx web servers, and supported both VMware and KVM virtualization systems. Moreover, I addressed PCI compliance and vulnerability issues, and supported various backup solutions like rsync, control panel backups, R1Soft, and Acronis Cyber Cloud.",
+      "summary": "I managed Linux servers, specialized in RHEL and Debian, and handled email services configuration and troubleshooting using Exim, Postfix, or Qmail. Additionally, I assisted with MySQL configuration and troubleshooting, oversaw a global server network, and provided comprehensive technical support for server, networking, DNS, and application-related issues. I also specialized in domain registration, configuration, and DNS troubleshooting, optimized Apache and Nginx web servers, and supported both VMware and KVM virtualization systems. Moreover, I addressed PCI compliance and vulnerability scans, and supported various backup solutions like rsync, control panel backups, R1Soft, and Acronis Cyber Cloud.",
       "url": "https://www.liquidweb.com/about-us/",
       "location": "Lansing, Michigan"
     },
@@ -203,7 +203,7 @@
   "references": [],
   "projects": [],
   "meta": {
-    "lastModified": "2024-06-03T20:21:00",
+    "lastModified": "2024-06-10T17:53:54",
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   }

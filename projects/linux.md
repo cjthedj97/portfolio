@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/linux.png
 title: "Linux System Administration"
-date: 2024
+date: 2023
 published: true
 labels:
   - Cyber Security

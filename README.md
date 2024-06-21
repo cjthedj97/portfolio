@@ -1,3 +1,5 @@
-# Professional Portfolio
+# My Professional Portfolio
 
-For details on this professional portfolio, please see https://techfolios.github.io.
+Though based on https://techfolios.github.io I have highly modided this version.
+
+Modifiications to theme, layout, content, you name it.

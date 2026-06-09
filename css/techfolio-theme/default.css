@@ -57,9 +57,7 @@ html[data-theme="light"] {
 
 body {
   color: var(--site-text);
-  background: linear-gradient(180deg, var(--site-bg-start) 0%, var(--site-bg-mid) 48%, var(--site-bg-end) 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-color: #030718;
   min-height: 100vh;
 }
 

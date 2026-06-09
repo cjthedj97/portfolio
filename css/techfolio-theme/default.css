@@ -1,29 +1,158 @@
-/* Default theme. Simple, yet elegant. */
-
-/* Use Open Sans as the default sans serif font. */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
-
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--bs-blue);
-  --tf-pill-bg: #1abc9c;
-  --tf-icon-fill: #74808a;
-  --tf-icon-hover: var(--bs-gray-500);
-  --tf-page-bg-color: #1a252f;
-  --tf-footer-bg-color: var(--bs-gray-200);
-  --tf-projects-bg-color: var(--bs-gray-100);
+  --bs-font-sans-serif: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  --bs-link-color: var(--site-link);
+  --tf-pill-bg: var(--site-accent);
+  --tf-icon-fill: var(--site-link);
+  --tf-icon-hover: color-mix(in srgb, var(--site-link) 80%, white);
+  --tf-page-bg-color: var(--site-bg-mid);
+  --tf-footer-bg-color: var(--site-footer-bg);
+  --tf-projects-bg-color: var(--site-bg-end);
+
+  --site-bg-start: #0f172a;
+  --site-bg-mid: #111827;
+  --site-bg-end: #020617;
+
+  --site-surface: rgba(15, 23, 42, 0.72);
+  --site-surface-strong: rgba(15, 23, 42, 0.88);
+  --site-border: rgba(148, 163, 184, 0.18);
+
+  --site-text: #e2e8f0;
+  --site-muted: #94a3b8;
+  --site-heading: #f8fafc;
+  --site-link: #38bdf8;
+  --site-accent: #22c55e;
+  --site-accent-2: #60a5fa;
+  --site-danger: #f87171;
+
+  --site-footer-bg: var(--site-bg-mid);
+  --site-copyright-bg: var(--site-bg-mid);
+  --site-theme-color: #0f172a;
+
+  color-scheme: dark;
+}
+
+html[data-theme="light"] {
+  --site-bg-start: #f8fafc;
+  --site-bg-mid: #e2e8f0;
+  --site-bg-end: #cbd5e1;
+
+  --site-surface: rgba(255, 255, 255, 0.8);
+  --site-surface-strong: rgba(255, 255, 255, 0.92);
+  --site-border: rgba(15, 23, 42, 0.12);
+
+  --site-text: #0f172a;
+  --site-muted: #475569;
+  --site-heading: #020617;
+  --site-link: #0284c7;
+  --site-accent: #16a34a;
+  --site-accent-2: #2563eb;
+  --site-danger: #dc2626;
+
+  --site-footer-bg: var(--site-bg-mid);
+  --site-copyright-bg: var(--site-bg-mid);
+  --site-theme-color: #f8fafc;
+
+  color-scheme: light;
 }
 
 body {
-   color:#fff;
-   background-color: #1a252f;
+  color: var(--site-text);
+  background: linear-gradient(180deg, var(--site-bg-start) 0%, var(--site-bg-mid) 48%, var(--site-bg-end) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
 }
 
-/* Format social media icons */
+a {
+  color: var(--site-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: color-mix(in srgb, var(--site-link) 80%, black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--site-heading);
+}
+
+.site-surface,
+.card,
+.panel,
+.box,
+section {
+  background: var(--site-surface);
+  border: 1px solid var(--site-border);
+  color: var(--site-text);
+}
+
+.site-surface-strong {
+  background: var(--site-surface-strong);
+}
+
+.site-muted,
+small,
+.text-muted {
+  color: var(--site-muted);
+}
+
+.site-link,
+.link-accent {
+  color: var(--site-link);
+}
+
+.btn-primary,
+.button-primary {
+  background: var(--site-accent-2);
+  border-color: var(--site-accent-2);
+  color: var(--site-heading);
+}
+
+.btn-primary:hover,
+.button-primary:hover {
+  background: color-mix(in srgb, var(--site-accent-2) 84%, black);
+  border-color: color-mix(in srgb, var(--site-accent-2) 84%, black);
+}
+
+.btn-outline-light,
+.button-outline {
+  color: var(--site-text);
+  border-color: var(--site-border);
+  background: transparent;
+}
+
+.btn-outline-light:hover,
+.button-outline:hover {
+  background: var(--site-surface);
+  color: var(--site-heading);
+}
+
+input,
+select,
+textarea {
+  background: var(--site-surface-strong);
+  color: var(--site-text);
+  border: 1px solid var(--site-border);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: color-mix(in srgb, var(--site-muted) 82%, transparent);
+}
+
+.site-danger,
+.text-danger {
+  color: var(--site-danger);
+}
+
 .tf-social {
   display: inline-block;
-  fill: #0ad1d1;
+  fill: var(--tf-icon-fill);
   height: 1.5em;
   vertical-align: -.1em;
   width: 1.5em;
@@ -34,8 +163,47 @@ body {
   fill: var(--tf-icon-hover);
 }
 
-a {
-  text-decoration: none;
+.bg-light-custom,
+.bg-dark-custom {
+  color: var(--site-text);
+}
+
+.bg-light-custom {
+  background-color: var(--site-surface-strong) !important;
+  backdrop-filter: blur(14px);
+}
+
+.bg-dark-custom {
+  background-color: transparent !important;
+}
+
+.card-footer {
+  background-color: var(--site-surface-strong);
+  border-top: 1px solid var(--site-border);
+  color: var(--site-text);
+}
+
+.navbar-brand {
+  color: var(--site-heading);
+  font-weight: 700;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: var(--site-link);
+}
+
+.navbar-nav .nav-link {
+  color: var(--site-text);
+}
+
+.text-start {
+  color: var(--site-heading);
+}
+
+.navbar-toggler-icon {
+  background-color: var(--site-accent-2);
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="%23fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
 }
 
 @media (max-width: 500px) {
@@ -46,42 +214,4 @@ a {
   .navbar-brand-mobile {
     display: inline;
   }
-}
-
-/* Simplify the styling of the bottom of Essay cards. */
-.card-footer {
-  background-color: #2c3e50;
-  border-top: none;
-  font-color: #fff;
-}
-
-@font-face {                                                                                                                                                                                                                                  
-  font-family: 'Bitwise';                                                                                                                                                                                                              
-  src: url('/assets/font/Bitwise-m19x.ttf') format('truetype');                                                                                                                                                                                
-  font-weight: normal;                                                                                                                                                                                                                      
-  font-style: normal;                                                                                                                                                                                                                       
-}
-.navbar-brand {
-    font-family: "Bitwise";
-    color: #fff;
-}
-.navbar-nav .nav-link {
-      color: #fff;
-}
-.bg-light-custom {
-  background-color: #2c3e50;
-}
-.bg-dark-custom {
-  background-color: #1a252f;
-}
-.text-start {
-	color: #fff;
-}
-.navbar-toggler-icon {
-  color: #fff; 
-  background: #1abc9c;
-  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="%23fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
-}
-.navbar-brand:hover {
-  color: #fff; /* Change this to the color you want */
 }
